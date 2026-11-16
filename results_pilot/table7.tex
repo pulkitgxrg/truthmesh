@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+\centering
+\caption{Ablation results on HotpotQA and TruthfulQA}
+\label{tab:ablation}
+\footnotesize
+\begin{tabular}{lcccccc}
+\hline
+Configuration & HR (\%) & $\Delta$HR vs CV-SM (95\% CI) & CLR (\%) & VSR (\%) & FRR (\%) & ECE \\
+\hline
+CV-SM & 18.8 [0.0, 40.0] & -- & 80.0 [40.0, 100.0] & 91.5 [85.6, 96.1] & 63.8 [53.7, 73.1] & 0.29 [0.21, 0.37] \\
+A1 $-$R1 & -- & -- & -- & -- & -- & -- \\
+A2 $-$R2 & -- & -- & -- & -- & -- & -- \\
+A3 $-$SML & -- & -- & -- & -- & -- & -- \\
+A4 Singletons rejected & -- & -- & -- & -- & -- & -- \\
+A5 Majority arbitration & -- & -- & -- & -- & -- & -- \\
+A6 $\hat\rho = 0$ & -- & -- & -- & -- & -- & -- \\
+A7 Homogeneous agents & -- & -- & -- & -- & -- & -- \\
+A8 No premise cap or retraction & -- & -- & -- & -- & -- & -- \\
+\hline
+\end{tabular}
+\par\smallskip\parbox{\textwidth}{\footnotesize Pooled over HotpotQA and TruthfulQA; $\Delta$ is paired by query; Holm-adjusted p-values in metrics.json.}
+\end{table*}

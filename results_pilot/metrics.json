@@ -1,0 +1,953 @@
+{
+ "manifest": "results_pilot/manifest.jsonl",
+ "n_boot": 10000,
+ "runs": [
+  {
+   "block": "main",
+   "system": "cvsm",
+   "dataset": "hotpotqa",
+   "u": 1,
+   "k": 3,
+   "tau": null,
+   "dir": "runs/20261004-161732_pilot_v2_cvsm"
+  },
+  {
+   "block": "main",
+   "system": "b5",
+   "dataset": "hotpotqa",
+   "u": 1,
+   "k": 3,
+   "tau": null,
+   "dir": "runs/20261004-150404_pilot_b5",
+   "dirs": [
+    "runs/20261004-150404_pilot_b5",
+    "runs/20261004-154326_pilot_b5"
+   ]
+  },
+  {
+   "block": "main",
+   "system": "b1",
+   "dataset": "hotpotqa",
+   "u": 1,
+   "k": 3,
+   "tau": null,
+   "dir": "runs/20261004-151125_pilot_b1",
+   "dirs": [
+    "runs/20261004-151125_pilot_b1",
+    "runs/20261004-155254_pilot_b1"
+   ]
+  }
+ ],
+ "systems": {
+  "b1": {
+   "hotpot_em": {
+    "est": 0.38,
+    "lo": 0.24,
+    "hi": 0.52,
+    "n_queries": 50
+   },
+   "hotpot_f1": {
+    "est": 0.4698095238095238,
+    "lo": 0.342,
+    "hi": 0.5967619047619047,
+    "n_queries": 50
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": 0.3611111111111111,
+    "lo": 0.2642857142857143,
+    "hi": 0.4634186722661928,
+    "n_queries": 50
+   },
+   "claims_per_answer": {
+    "est": 2.88,
+    "lo": 2.5,
+    "hi": 3.26,
+    "n_queries": 50
+   },
+   "coverage": {
+    "est": 1,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n_queries": 50
+   },
+   "tokens": {
+    "est": 201.76,
+    "lo": 193.74,
+    "hi": 210.4005,
+    "n_queries": 50
+   }
+  },
+  "b2": {
+   "hotpot_em": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "hotpot_f1": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "claims_per_answer": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "coverage": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tokens": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   }
+  },
+  "b3": {
+   "hotpot_em": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "hotpot_f1": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "claims_per_answer": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "coverage": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tokens": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   }
+  },
+  "b4": {
+   "hotpot_em": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "hotpot_f1": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "claims_per_answer": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "coverage": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tokens": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   }
+  },
+  "b5": {
+   "hotpot_em": {
+    "est": 0.52,
+    "lo": 0.38,
+    "hi": 0.66,
+    "n_queries": 50
+   },
+   "hotpot_f1": {
+    "est": 0.6331111111111111,
+    "lo": 0.5073333333333333,
+    "hi": 0.754,
+    "n_queries": 50
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": 0.11570247933884298,
+    "lo": 0.05357142857142857,
+    "hi": 0.1889763779527559,
+    "n_queries": 50
+   },
+   "claims_per_answer": {
+    "est": 2.42,
+    "lo": 2.08,
+    "hi": 2.78,
+    "n_queries": 50
+   },
+   "coverage": {
+    "est": 1,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n_queries": 50
+   },
+   "tokens": {
+    "est": 22630.2,
+    "lo": 20689.484500000002,
+    "hi": 24596.783,
+    "n_queries": 50
+   }
+  },
+  "b6": {
+   "hotpot_em": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "hotpot_f1": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "claims_per_answer": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "coverage": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tokens": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   }
+  },
+  "cvsm": {
+   "hotpot_em": {
+    "est": 0.12,
+    "lo": 0.04,
+    "hi": 0.22,
+    "n_queries": 50
+   },
+   "hotpot_f1": {
+    "est": 0.136,
+    "lo": 0.056,
+    "hi": 0.236,
+    "n_queries": 50
+   },
+   "fever_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "tqa_ti": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "halu_acc": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "HR": {
+    "est": 0.1875,
+    "lo": 0.0,
+    "hi": 0.4,
+    "n_queries": 50
+   },
+   "claims_per_answer": {
+    "est": 2,
+    "lo": 1.2,
+    "hi": 2.857142857142857,
+    "n_queries": 50
+   },
+   "coverage": {
+    "est": 0.16,
+    "lo": 0.08,
+    "hi": 0.26,
+    "n_queries": 50
+   },
+   "tokens": {
+    "est": 14283.54,
+    "lo": 13174.6605,
+    "hi": 15399.8035,
+    "n_queries": 50
+   }
+  }
+ },
+ "paired": {
+  "b1": {
+   "est": -0.1736111111111111,
+   "lo": -0.4113579474342928,
+   "hi": 0.049518160830915016,
+   "p": 0.1208,
+   "n_queries": 50,
+   "mcnemar_em_hotpotqa": {
+    "b": 2,
+    "c": 15,
+    "p_value": 0.002349853515625
+   },
+   "holm": {
+    "p": 0.1208,
+    "p_adj": 0.2416,
+    "reject": false
+   },
+   "mcnemar_holm": {
+    "p": 0.002349853515625,
+    "p_adj": 0.002349853515625,
+    "reject": true
+   }
+  },
+  "b2": {
+   "est": null,
+   "lo": null,
+   "hi": null,
+   "p": null,
+   "note": "system not run",
+   "mcnemar_em_hotpotqa": null,
+   "holm": null,
+   "mcnemar_holm": null
+  },
+  "b3": {
+   "est": null,
+   "lo": null,
+   "hi": null,
+   "p": null,
+   "note": "system not run",
+   "mcnemar_em_hotpotqa": null,
+   "holm": null,
+   "mcnemar_holm": null
+  },
+  "b4": {
+   "est": null,
+   "lo": null,
+   "hi": null,
+   "p": null,
+   "note": "system not run",
+   "mcnemar_em_hotpotqa": null,
+   "holm": null,
+   "mcnemar_holm": null
+  },
+  "b5": {
+   "est": 0.07179752066115702,
+   "lo": -0.11965811965811966,
+   "hi": 0.26041787790697674,
+   "p": 0.52,
+   "n_queries": 50,
+   "mcnemar_em_hotpotqa": {
+    "b": 1,
+    "c": 21,
+    "p_value": 1.0967254638671875e-05
+   },
+   "holm": {
+    "p": 0.52,
+    "p_adj": 0.52,
+    "reject": false
+   },
+   "mcnemar_holm": {
+    "p": 1.0967254638671875e-05,
+    "p_adj": 2.193450927734375e-05,
+    "reject": true
+   }
+  },
+  "b6": {
+   "est": null,
+   "lo": null,
+   "hi": null,
+   "p": null,
+   "note": "system not run",
+   "mcnemar_em_hotpotqa": null,
+   "holm": null,
+   "mcnemar_holm": null
+  }
+ },
+ "ablations": {
+  "cvsm": {
+   "HR": {
+    "est": 0.1875,
+    "lo": 0.0,
+    "hi": 0.4,
+    "n_queries": 50
+   },
+   "CLR": {
+    "est": 0.8,
+    "lo": 0.4,
+    "hi": 1.0,
+    "n_queries": 50
+   },
+   "VSR": {
+    "est": 0.9147005444646098,
+    "lo": 0.8563045463325548,
+    "hi": 0.961119835141027,
+    "n_queries": 50
+   },
+   "FRR": {
+    "est": 0.6384065372829418,
+    "lo": 0.5366463728348482,
+    "hi": 0.7314616837304322,
+    "n_queries": 50
+   },
+   "ECE": {
+    "est": 0.29046212090315426,
+    "lo": 0.21267223957741946,
+    "hi": 0.3692515141734044,
+    "n_queries": 50
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a1": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a2": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a3": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a4": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a5": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a6": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a7": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  },
+  "a8": {
+   "HR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "CLR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "VSR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "FRR": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "ECE": {
+    "est": null,
+    "lo": null,
+    "hi": null,
+    "n_queries": 0
+   },
+   "dHR": null,
+   "dCLR": null
+  }
+ },
+ "cost": {
+  "b5@k=3": {
+   "in_tok": 20931,
+   "out_tok": 1699.2,
+   "calls": 21.16,
+   "nli": 0,
+   "lat_median": 18.433499708000454,
+   "lat_p95": 38.0483170480984
+  },
+  "cvsm@k=3": {
+   "in_tok": 11453.84,
+   "out_tok": 2829.7,
+   "calls": 30.68,
+   "nli": 231.1,
+   "lat_median": 124.25997093800106,
+   "lat_p95": 294.469212624996
+  }
+ },
+ "hypotheses": {
+  "H1": [
+   "inconclusive",
+   "not every baseline has a paired HR comparison"
+  ],
+  "H2": [
+   "see note",
+   "PD comparison B6 vs B5 and MCR of B6 are in metrics.json; MCR(B5) is undefined because B5 has no memory, so H2 is judged on PD (B6 > B5 with CI excluding 0) and MCR(B6) > MCR(CV-SM)."
+  ],
+  "H3": [
+   "inconclusive",
+   "CLR difference A1 - CV-SM undefined (no falsely accepted multi-agent clusters)"
+  ],
+  "H4": [
+   "inconclusive",
+   "MCR slopes unavailable"
+  ],
+  "H5": [
+   "inconclusive",
+   "k sweep incomplete"
+  ]
+ },
+ "ablation_holm": {},
+ "h5_fit": {},
+ "mcr_slopes": {
+  "cvsm": {
+   "slope": 0.007203978357268822,
+   "ci": [
+    -0.018729112809515867,
+    0.031081262077158126
+   ]
+  }
+ },
+ "label_precision": {
+  "cvsm:Corroborated": {
+   "precision": 0.9117647058823529,
+   "ci": [
+    0.8235294117647058,
+    1.0
+   ],
+   "n": 34
+  },
+  "cvsm:Resolved": {
+   "precision": 0.9,
+   "ci": [
+    0.7,
+    1.0
+   ],
+   "n": 10
+  },
+  "cvsm:Singleton-grounded": {
+   "precision": 0.8482758620689655,
+   "ci": [
+    0.7862068965517242,
+    0.903448275862069
+   ],
+   "n": 145
+  },
+  "b5:Majority-accepted": {
+   "precision": 0.8162393162393162,
+   "ci": [
+    0.7606837606837606,
+    0.8632478632478633
+   ],
+   "n": 234
+  }
+ },
+ "pareto": [
+  {
+   "tokens": 14283.54,
+   "HR": 0.1875,
+   "config": "CV-SM (cov. 16%)"
+  },
+  {
+   "tokens": 22630.2,
+   "HR": 0.11570247933884298,
+   "config": "B5"
+  },
+  {
+   "tokens": 201.76,
+   "HR": 0.3611111111111111,
+   "config": "B1"
+  }
+ ],
+ "error_analysis": {
+  "n_sampled": 3,
+  "categories": [
+   "decomposition error",
+   "alignment error",
+   "shared misconception",
+   "arbitration error",
+   "grounding error",
+   "synthesis error"
+  ],
+  "note": "categories to be assigned by the authors; not assigned automatically"
+ },
+ "analysis_eval_cost": {
+  "llm_calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nli_calls": 0,
+  "cost_usd": 0,
+  "unpriced_models": [],
+  "cached_calls": 0,
+  "by_component": {}
+ }
+}

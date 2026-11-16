@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.egg-info/
+data/raw/
+runs/smoke/
+.env
+# cache/ and runs/ are kept on purpose: they let every reported number be recomputed (Section V-H)
+paper/
+
+# OS / tooling junk
+.DS_Store
+.pytest_cache/
+
+# Local-only: data, pilot reports, research notes
+data/
+PILOT_*
+research.md
+cache/
+runs/

@@ -1,0 +1,23 @@
+[project]
+name = "cvsm"
+version = "0.1.0"
+description = "CV-SM: cross-verification with verified-write shared memory for multi-agent LLMs (implementation of research.md Part B)"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=1,<2", "openai>=2", "google-genai", "torch", "transformers", "sentence-transformers",
+  "sentencepiece", "protobuf", "numpy", "scipy", "pyyaml", "bm25s", "PyStemmer", "statsmodels", "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

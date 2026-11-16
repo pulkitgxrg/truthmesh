@@ -1,0 +1,50 @@
+# Pilot (Section V-A): 50 HotpotQA validation questions; CV-SM, B1, B5; cheapest suitable model.
+# Parameters are the untuned starting values in Params (Section V-D grid mid-points); they are NOT tuned.
+name: smoke
+dataset: hotpotqa
+split: validation
+n: 2
+offset: 0               # pilot questions: validation[0:50]
+calibration_offset: 50  # rho_hat calibration subset: validation[50:100] (disjoint from the pilot)
+calibration_n: 50
+seed: 13
+run_index: 1
+k: 3
+
+# Pilot uses one base model for all agents (cheapest suitable). The full study needs >= 2 families (V-B).
+agents:
+  - {agent_id: a1, role: retriever, model: {provider: ollama, model: "gemma3:4b"}}
+  - {agent_id: a2, role: reasoner,  model: {provider: ollama, model: "gemma3:4b"}}
+  - {agent_id: a3, role: critic,    model: {provider: ollama, model: "gemma3:4b"}}
+utility_model: {provider: ollama, model: "gemma3:4b"}       # decomposer, CVM extraction, synthesizer
+arbiter_model: {provider: ollama, model: "gemma3:4b"}       # ideally a model not assigned to the sub-task
+eval_decomposer_model: {provider: ollama, model: "gemma3:4b"}
+judge_model: null
+
+nli_checkpoint: cross-encoder/nli-deberta-v3-base
+label_nli_checkpoint: MoritzLaurer/DeBERTa-v3-large-mnli-fever-anli-ling-wanli
+encoder: sentence-transformers/all-MiniLM-L6-v2
+
+draft_temperature: 0.7
+max_tokens: 1024
+max_subtasks: 4
+concurrency: 1
+
+params:
+  theta_e: 0.7
+  theta_c: 0.7
+  theta_sim: 0.6
+  alpha: 0.4
+  beta: 0.2
+  gamma: 0.4
+  tau: 0.5
+  delta: 0.5
+  Delta: 0.1
+  r: 5
+  p: 5
+  rho_hat: 0.0          # replaced by the calibration estimate (scripts/estimate_rho.py) before CV-SM runs
+
+switches:
+  sc_samples: 5
+  debate_rounds: 2
+runs_dir: runs/smoke

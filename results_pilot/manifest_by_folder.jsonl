@@ -1,0 +1,5 @@
+{"block": "main", "system": "cvsm", "dataset": "hotpotqa", "u": 1, "k": 3, "tau": null, "dir": "runs/20261004-161732_pilot_v2_cvsm"}
+{"block": "main", "system": "b5", "dataset": "hotpotqa", "u": 1, "k": 3, "tau": null, "dir": "runs/20261004-150404_pilot_b5", "dirs": ["runs/20261004-150404_pilot_b5", "runs/20261004-154326_pilot_b5"]}
+{"block": "main", "system": "b5", "dataset": "hotpotqa", "u": 1, "k": 3, "tau": null, "dir": "runs/20261004-154326_pilot_b5", "dirs": ["runs/20261004-150404_pilot_b5", "runs/20261004-154326_pilot_b5"]}
+{"block": "main", "system": "b1", "dataset": "hotpotqa", "u": 1, "k": 3, "tau": null, "dir": "runs/20261004-151125_pilot_b1", "dirs": ["runs/20261004-151125_pilot_b1", "runs/20261004-155254_pilot_b1"]}
+{"block": "main", "system": "b1", "dataset": "hotpotqa", "u": 1, "k": 3, "tau": null, "dir": "runs/20261004-155254_pilot_b1", "dirs": ["runs/20261004-151125_pilot_b1", "runs/20261004-155254_pilot_b1"]}

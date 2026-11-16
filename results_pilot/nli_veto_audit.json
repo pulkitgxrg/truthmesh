@@ -1,0 +1,611 @@
+{
+ "run": "runs/20261004-140927_pilot_cvsm",
+ "n_vetoes_G_le_-0.9": 232,
+ "sample_size": 60,
+ "seed": 0,
+ "large_contradiction": 31,
+ "large_neutral": 24,
+ "large_entailment": 4,
+ "items": [
+  {
+   "claim": "\"One Night Only\" was hosted by Johnny Carson.",
+   "passage": "For One Night Only (Irish TV series): For One Night Only is an Irish light entertainment show hosted by Gay Byrne.  It features music and chat with a special guest musician.  The studio-based show originally aired on Friday nights as a summer \"filler\" in 2011.  The show returned for a second series ",
+   "base_con": 0.9998445510864258,
+   "large": [
+    8.91985182533972e-05,
+    0.00033794919727370143,
+    0.9995728135108948
+   ]
+  },
+  {
+   "claim": "The Column of Saint Zanobi is located near the Florence Cathedral.",
+   "passage": "Piazza Colonna: Piazza Colonna is a piazza at the center of the Rione of Colonna in the historic heart of Rome, Italy.  It is named for the marble Column of Marcus Aurelius, which has stood there since AD 193.  The bronze statue of Saint Paul that crowns the column was placed in 1589, by order of Po",
+   "base_con": 0.9999020099639893,
+   "large": [
+    0.0017828586278483272,
+    0.0035214826930314302,
+    0.9946957230567932
+   ]
+  },
+  {
+   "claim": "Shandi Finnessey is American.",
+   "passage": "Ben Lamb: Benjamin \"Ben\" Lamb (born March 31, 1985) is an American professional poker player.  Lamb was the 2011 World Series of Poker Player of the Year.  He was also a member of the 2011 November Nine, finishing in third place in the no limit hold'em championship event.  Lamb has one World Series ",
+   "base_con": 0.9992187023162842,
+   "large": [
+    0.0020630289800465107,
+    0.9806718230247498,
+    0.01726510003209114
+   ]
+  },
+  {
+   "claim": "It is uncertain whether Minette Walters is English.",
+   "passage": "The Rottweiler: The Rottweiler (2003) is a psychological thriller novel by English crime writer Ruth Rendell.",
+   "base_con": 0.9987980127334595,
+   "large": [
+    0.013133424334228039,
+    0.9839418530464172,
+    0.0029247452039271593
+   ]
+  },
+  {
+   "claim": "Margaret Atwood has been longlisted for the Booker Prize but not shortlisted.",
+   "passage": "Margaret Atwood: Margaret Eleanor Atwood, {'1': \", '2': \", '3': \", '4': \"} (born November 18, 1939) is a Canadian poet, novelist, literary critic, essayist, inventor, and environmental activist.  She is a winner of the Arthur C. Clarke Award and Prince of Asturias Award for Literature, has been shor",
+   "base_con": 0.9985350370407104,
+   "large": [
+    0.000575757643673569,
+    0.0002630867238622159,
+    0.9991611242294312
+   ]
+  },
+  {
+   "claim": "There is no publicly available or corroborated information indicating that Pablo Escobar, known as \"The King of Cocaine,\" partnered with Jack Carlton Reed to supply drugs to the United States.",
+   "passage": "Roberto Pannunzi: Roberto Pannunzi (born Rome, March 4, 1948), also known as \"B\u00e9b\u00e9\" (Baby), is an Italian criminal linked to the 'Ndrangheta, a Mafia-type organisation in Calabria.  He is one of the top cocaine brokers for the Sicilian Mafia and the 'Ndrangheta with the Colombian cocaine cartels.  H",
+   "base_con": 0.9997305274009705,
+   "large": [
+    0.007794244214892387,
+    0.9875059127807617,
+    0.004699829034507275
+   ]
+  },
+  {
+   "claim": "I cannot definitively determine who is older.",
+   "passage": "Philip Labonte: Philip Steven Labonte (Born April 15, 1975) is an American musician from Massachusetts, best known as the lead singer of the American heavy metal band All That Remains.  Labonte is the former lead vocalist for Shadows Fall, was the touring vocalist for Killswitch Engage in early 2010",
+   "base_con": 0.9992903470993042,
+   "large": [
+    0.5495575666427612,
+    0.2734156847000122,
+    0.17702676355838776
+   ]
+  },
+  {
+   "claim": "Philip Labonte was born on October 16, 1979.",
+   "passage": "Philip Labonte: Philip Steven Labonte (Born April 15, 1975) is an American musician from Massachusetts, best known as the lead singer of the American heavy metal band All That Remains.  Labonte is the former lead vocalist for Shadows Fall, was the touring vocalist for Killswitch Engage in early 2010",
+   "base_con": 0.9999041557312012,
+   "large": [
+    0.00011911222100025043,
+    0.0001689622731646523,
+    0.9997119307518005
+   ]
+  },
+  {
+   "claim": "Joseph McGrath was born in the United Kingdom.",
+   "passage": "Joseph McGrath (film director): Joseph McGrath (born 1930, Glasgow) is a Scottish film and television director and screenwriter.  He studied at Glasgow School of Art in the late 1940s/early 1950s where his energy and talent was much admired by his contemporaries.",
+   "base_con": 0.9855108261108398,
+   "large": [
+    0.9965914487838745,
+    0.0021295342594385147,
+    0.0012790757464244962
+   ]
+  },
+  {
+   "claim": "Johnny Carson is widely recognized for hosting \"The Tonight Show\" from 1962 until 1992.",
+   "passage": "Gay Byrne: Gabriel Mary \"Gay\" Byrne (born 5 August 1934; affectionately known as Uncle Gay, Gaybo or Uncle Gaybo) is an Irish presenter of radio and television.  His most notable role was first host of \"The Late Late Show\" over a 37-year period spanning 1962 until 1999.  \"The Late Late Show\" is the ",
+   "base_con": 0.9595689177513123,
+   "large": [
+    0.009267561137676239,
+    0.9545938372612,
+    0.03613854572176933
+   ]
+  },
+  {
+   "claim": "Melanie Klein was born in 1882.",
+   "passage": "Otto F. Kernberg: Otto Friedmann Kernberg (born 10 September 1928) is a psychoanalyst and professor of psychiatry at Weill Cornell Medical College.  He is most widely known for his psychoanalytic theories on borderline personality organization and narcissistic pathology.  In addition, his work has b",
+   "base_con": 0.9768037796020508,
+   "large": [
+    0.0004269475757610053,
+    0.9989638328552246,
+    0.0006091899122111499
+   ]
+  },
+  {
+   "claim": "Wilhelm Reich was born in 1897.",
+   "passage": "Margaret Little: Margaret I. Little (21 May 1901 \u2013 27 November 1994) was a British psychoanalyst of the British Middle Group, and an influential figure in the creation of object relations theory, particularly as an early proponent of the utility of countertransference in the analytic process.",
+   "base_con": 0.9998811483383179,
+   "large": [
+    0.0006802402785979211,
+    0.9882551431655884,
+    0.011064627207815647
+   ]
+  },
+  {
+   "claim": "Dale Earnhardt Jr. is widely recognized for performing backflips off his car as a celebration in NASCAR races.",
+   "passage": "Carl Edwards: Carl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He wo",
+   "base_con": 0.9811407327651978,
+   "large": [
+    0.002177979564294219,
+    0.01568974182009697,
+    0.9821321964263916
+   ]
+  },
+  {
+   "claim": "Brad Keselowski finished ahead of Kyle Busch in the 2009 NASCAR Nationwide Series standings.",
+   "passage": "2009 NASCAR Nationwide Series: The 2009 NASCAR Nationwide Series began on February 14 at Daytona International Speedway with the Camping World 300.  The season concluded on November 21 at Homestead-Miami Speedway with the Ford 300.  With 25 top-five finishes, Kyle Busch was the season champion.  He ",
+   "base_con": 0.9990392923355103,
+   "large": [
+    0.0006998864118941128,
+    0.00022022904886398464,
+    0.9990799427032471
+   ]
+  },
+  {
+   "claim": "Melanie Klein was known for her rigorous development and advocacy of psychoanalytic therapy.",
+   "passage": "Schema therapy: Schema therapy was developed by Jeffrey E. Young for use in treatment of personality disorders and chronic DSM Axis I disorders, such as when patients fail to respond or relapse after having been through other therapies (for example, traditional cognitive behavioral therapy).  Schema",
+   "base_con": 0.998883068561554,
+   "large": [
+    0.009997893124818802,
+    0.8405152559280396,
+    0.14948685467243195
+   ]
+  },
+  {
+   "claim": "The show \"Parks and Recreation\" features various characters who date each other, including some actresses.",
+   "passage": "Dasavatharam (film): Dasavatharam (\u0ba4\u0bae\u0bbf\u0bb4\u0bcd: \u0ba4\u0b9a\u0bbe\u0bb5\u0ba4\u0bbe\u0bb0\u0bae\u0bcd, English: The Ten Avatars) is a 1976 Tamil Hindu - Devotional Mythology film was directed and script were written by K. S. Gopalakrishnan.  Music by S. Rajeswara Rao assets to the film.  It stars Ravikumar played titular role with Sirkazhi Govindar",
+   "base_con": 0.9941146969795227,
+   "large": [
+    0.0012302228715270758,
+    0.9986597299575806,
+    0.00011004485713783652
+   ]
+  },
+  {
+   "claim": "Baylor won the 2015 Citrus Bowl.",
+   "passage": "2015 Baylor Bears football team: The 2015 Baylor Bears football team represented Baylor University in the 2015 NCAA Division I FBS football season.  The Bears were coached by Art Briles, playing their 117th football season; this year was the team's second season in McLane Stadium in Waco, Texas.  Th",
+   "base_con": 0.9976104497909546,
+   "large": [
+    0.0008280842448584735,
+    0.0018140089232474566,
+    0.9973579049110413
+   ]
+  },
+  {
+   "claim": "Philip Labonte was born on November 16, 1975.",
+   "passage": "Philip Labonte: Philip Steven Labonte (Born April 15, 1975) is an American musician from Massachusetts, best known as the lead singer of the American heavy metal band All That Remains.  Labonte is the former lead vocalist for Shadows Fall, was the touring vocalist for Killswitch Engage in early 2010",
+   "base_con": 0.9998520612716675,
+   "large": [
+    0.00024342566030099988,
+    0.00014282333722803742,
+    0.9996137022972107
+   ]
+  },
+  {
+   "claim": "Joseph McGrath's nationality is not verified.",
+   "passage": "Joseph McGrath (film director): Joseph McGrath (born 1930, Glasgow) is a Scottish film and television director and screenwriter.  He studied at Glasgow School of Art in the late 1940s/early 1950s where his energy and talent was much admired by his contemporaries.",
+   "base_con": 0.9998294115066528,
+   "large": [
+    0.002339451340958476,
+    0.012420520186424255,
+    0.9852399826049805
+   ]
+  },
+  {
+   "claim": "The series champion in 2009 was Carl Edwards.",
+   "passage": "2009 NASCAR Nationwide Series: The 2009 NASCAR Nationwide Series began on February 14 at Daytona International Speedway with the Camping World 300.  The season concluded on November 21 at Homestead-Miami Speedway with the Ford 300.  With 25 top-five finishes, Kyle Busch was the season champion.  He ",
+   "base_con": 0.9998124241828918,
+   "large": [
+    0.0001892205618787557,
+    0.0001422743225703016,
+    0.9996684789657593
+   ]
+  },
+  {
+   "claim": "The show hosted from 1962 until 1999 by the individual most well-known for hosting it is \"The Tonight Show.\"",
+   "passage": "For One Night Only (Irish TV series): For One Night Only is an Irish light entertainment show hosted by Gay Byrne.  It features music and chat with a special guest musician.  The studio-based show originally aired on Friday nights as a summer \"filler\" in 2011.  The show returned for a second series ",
+   "base_con": 0.9989994168281555,
+   "large": [
+    0.01367140468209982,
+    0.970684826374054,
+    0.015643758699297905
+   ]
+  },
+  {
+   "claim": "Bob Hope is most well-known for hosting the Academy Awards (Oscars) from 1962 until 1999.",
+   "passage": "Gay Byrne: Gabriel Mary \"Gay\" Byrne (born 5 August 1934; affectionately known as Uncle Gay, Gaybo or Uncle Gaybo) is an Irish presenter of radio and television.  His most notable role was first host of \"The Late Late Show\" over a 37-year period spanning 1962 until 1999.  \"The Late Late Show\" is the ",
+   "base_con": 0.9997499585151672,
+   "large": [
+    0.004865810740739107,
+    0.060602013021707535,
+    0.934532105922699
+   ]
+  },
+  {
+   "claim": "Johnny Carson hosted \"The Tonight Show\" during that period.",
+   "passage": "One Night Only (TV series): One Night Only is a British entertainment show, celebrating the best of British Music.  Myleene Klass hosted the first episode in December 2008 with the singer Tom Jones.  Ben Shephard hosted in 2009 and 2010, which saw Rod Stewart and Phil Collins take to the stage.  In ",
+   "base_con": 0.9878228902816772,
+   "large": [
+    0.0003478083526715636,
+    0.9951373934745789,
+    0.004514853935688734
+   ]
+  },
+  {
+   "claim": "It cannot be determined where that movement was centered.",
+   "passage": "Decadent movement: The Decadent Movement was a late 19th-century artistic and literary movement, centered in Western Europe, that followed an aesthetic ideology of excess and artificiality.  The visual artist F\u00e9licien Rops's body of work and Joris-Karl Huysmans's novel \"Against Nature\" (1884) are co",
+   "base_con": 0.9997978806495667,
+   "large": [
+    0.0006385274464264512,
+    0.00023813471489120275,
+    0.9991233944892883
+   ]
+  },
+  {
+   "claim": "Carl Edwards defeated Kyle Busch in the 2009 NASCAR Nationwide Series.",
+   "passage": "2009 NASCAR Nationwide Series: The 2009 NASCAR Nationwide Series began on February 14 at Daytona International Speedway with the Camping World 300.  The season concluded on November 21 at Homestead-Miami Speedway with the Ford 300.  With 25 top-five finishes, Kyle Busch was the season champion.  He ",
+   "base_con": 0.9999027252197266,
+   "large": [
+    0.00026165752205997705,
+    0.00016534794121980667,
+    0.9995729327201843
+   ]
+  },
+  {
+   "claim": "Thomas H. Ince was born in Indiana, USA.",
+   "passage": "Joseph McGrath (film director): Joseph McGrath (born 1930, Glasgow) is a Scottish film and television director and screenwriter.  He studied at Glasgow School of Art in the late 1940s/early 1950s where his energy and talent was much admired by his contemporaries.",
+   "base_con": 0.9989977478981018,
+   "large": [
+    0.0017061256803572178,
+    0.9956201910972595,
+    0.002673648064956069
+   ]
+  },
+  {
+   "claim": "Minette Walters is known for writing crime and psychological thrillers.",
+   "passage": "Jeff Stanzler: Jeff Stanzler is an American screenwriter and director.  He wrote and directed the 1992 film \"Jumpin' at the Boneyard\" along with the 2005 psychological thriller, \"Sorry, Haters\", an \"official selection\" in both the Toronto International and American Film Institute film festivals.  He",
+   "base_con": 0.9992648959159851,
+   "large": [
+    0.0097336545586586,
+    0.20791159570217133,
+    0.7823547720909119
+   ]
+  },
+  {
+   "claim": "Race to Nowhere is a documentary focused on education and student stress.",
+   "passage": "Bukowski (1973 film): Bukowski is a 1973 documentary film produced by Taylor Hackford and directed by Richard Davies that follows Los Angeles poet Charles Bukowski to San Francisco for a poetry reading.  The full 60-minute documentary begins with footage of Bukowski in his Los Angeles home and neigh",
+   "base_con": 0.9999585151672363,
+   "large": [
+    0.0024322913959622383,
+    0.010544776916503906,
+    0.9870229363441467
+   ]
+  },
+  {
+   "claim": "The religious building near the Column of Saint Zanobi is a prominent religious structure in Florence.",
+   "passage": "Pests\u00e4ule, Vienna: The Pests\u00e4ule (English: Plague Column ) or Dreifaltigkeitss\u00e4ule (English: Trinity Column ) is a Holy Trinity column located on the Graben, a street in the inner city of Vienna, Austria.  Erected after the Great Plague epidemic in 1679, the Baroque memorial is one of the most well-",
+   "base_con": 0.9992737174034119,
+   "large": [
+    0.0027971076779067516,
+    0.01296530943363905,
+    0.9842374920845032
+   ]
+  },
+  {
+   "claim": "Steve Moore was born in 1977.",
+   "passage": "Steve Moore (ice hockey): Steven Francis Moore (born September 22, 1978) is a Canadian former professional ice hockey center who played in parts of three National Hockey League (NHL) seasons with the Colorado Avalanche.",
+   "base_con": 0.9967682361602783,
+   "large": [
+    0.00031433760887011886,
+    0.00027524324832484126,
+    0.9994105100631714
+   ]
+  },
+  {
+   "claim": "Philip Labonte was born on June 16, 1979.",
+   "passage": "Philip Labonte: Philip Steven Labonte (Born April 15, 1975) is an American musician from Massachusetts, best known as the lead singer of the American heavy metal band All That Remains.  Labonte is the former lead vocalist for Shadows Fall, was the touring vocalist for Killswitch Engage in early 2010",
+   "base_con": 0.99988853931427,
+   "large": [
+    0.0001712757657514885,
+    0.0001892150758067146,
+    0.9996395111083984
+   ]
+  },
+  {
+   "claim": "The driver Kyle Busch lost to in the 2009 NASCAR Nationwide Series is Brad Keselowski.",
+   "passage": "Kyle Busch: Kyle Thomas \"Rowdy\" Busch (born May 2, 1985) is an American professional stock car racing driver and team owner.  He is the driver of the No. 18 Toyota Camry in the Monster Energy NASCAR Cup Series and the No. 18 Camry in the NASCAR Xfinity Series for Joe Gibbs Racing.  He also owns Kyle",
+   "base_con": 0.982920229434967,
+   "large": [
+    0.001981323352083564,
+    0.969833493232727,
+    0.028185121715068817
+   ]
+  },
+  {
+   "claim": "Steve Moore was born in 1983.",
+   "passage": "Steve Moore (ice hockey): Steven Francis Moore (born September 22, 1978) is a Canadian former professional ice hockey center who played in parts of three National Hockey League (NHL) seasons with the Colorado Avalanche.",
+   "base_con": 0.9998169541358948,
+   "large": [
+    0.0002373144670855254,
+    0.00018374093633610755,
+    0.9995788931846619
+   ]
+  },
+  {
+   "claim": "Based on available data, Margaret Atwood has not been shortlisted for the Booker Prize.",
+   "passage": "Margaret Atwood: Margaret Eleanor Atwood, {'1': \", '2': \", '3': \", '4': \"} (born November 18, 1939) is a Canadian poet, novelist, literary critic, essayist, inventor, and environmental activist.  She is a winner of the Arthur C. Clarke Award and Prince of Asturias Award for Literature, has been shor",
+   "base_con": 0.9996138215065002,
+   "large": [
+    0.004791197832673788,
+    0.00023346947273239493,
+    0.9949754476547241
+   ]
+  },
+  {
+   "claim": "Johnny Carson is closely associated with \"The Tonight Show\".",
+   "passage": "WWE One Night Stand: WWE One Night Stand was a professional wrestling pay-per-view (PPV) event, produced every June by WWE, a professional wrestling promotion based in Connecticut.  The event was created in 2005, with its inaugural event taking place in June of that year.  The event's name refers to",
+   "base_con": 0.9149460792541504,
+   "large": [
+    0.9214411973953247,
+    0.0758676677942276,
+    0.002691238187253475
+   ]
+  },
+  {
+   "claim": "There is no publicly available information confirming a partnership between Escobar and Jack Carlton Reed.",
+   "passage": "Seraf\u00edn Zambada Ortiz: Seraf\u00edn Zambada Ortiz (born 27 May 1990) is a United States-born Mexican drug trafficker and son of Ismael \"El Mayo\" Zambada, one of the top leaders of the Sinaloa Cartel.  He is married to Karime Ellameli Torres Acosta, the daughter of the late Manuel Torres F\u00e9lix (\"The Crazy",
+   "base_con": 0.9991574287414551,
+   "large": [
+    0.3331569731235504,
+    0.601064145565033,
+    0.06577890366315842
+   ]
+  },
+  {
+   "claim": "August Brancart was a Belgian painter associated with the Hague School.",
+   "passage": "Auguste Brancart: August or Auguste Brancart (21 July 1851 - 1894?)  was a Belgian publisher of pornographic literature, credited with the first publication of \"My Secret Life\".  He published translations of English pornography into French and vice versa for English publishers such as Edward Avery. ",
+   "base_con": 0.9991043210029602,
+   "large": [
+    0.0001965238043339923,
+    0.0013260544510558248,
+    0.9984773993492126
+   ]
+  },
+  {
+   "claim": "Margaret Atwood has not been shortlisted for the Booker Prize according to available information up to October 2023.",
+   "passage": "Margaret Atwood: Margaret Eleanor Atwood, {'1': \", '2': \", '3': \", '4': \"} (born November 18, 1939) is a Canadian poet, novelist, literary critic, essayist, inventor, and environmental activist.  She is a winner of the Arthur C. Clarke Award and Prince of Asturias Award for Literature, has been shor",
+   "base_con": 0.9989269375801086,
+   "large": [
+    0.2499013990163803,
+    0.4814037084579468,
+    0.26869484782218933
+   ]
+  },
+  {
+   "claim": "Kevin Harvick is the driver known for doing backflips off his car in NASCAR.",
+   "passage": "Carl Edwards: Carl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He wo",
+   "base_con": 0.9971978664398193,
+   "large": [
+    0.0002995082177221775,
+    0.0017387659754604101,
+    0.9979616403579712
+   ]
+  },
+  {
+   "claim": "Robert C. Rosenbaum contributed to \"The Great American Dream Machine.\"",
+   "passage": "CBS Morning News: CBS Morning News is an American early morning television news program for CBS News that is broadcast on CBS.  The program features late-breaking news stories, national weather forecasts and sports highlights.  Since 2013, it has been anchored by Anne Marie Green, who concurrently a",
+   "base_con": 0.9750306606292725,
+   "large": [
+    0.0017138533294200897,
+    0.998178243637085,
+    0.00010786436905618757
+   ]
+  },
+  {
+   "claim": "The psychoanalyst described is likely Wilhelm Reich.",
+   "passage": "Margaret Little: Margaret I. Little (21 May 1901 \u2013 27 November 1994) was a British psychoanalyst of the British Middle Group, and an influential figure in the creation of object relations theory, particularly as an early proponent of the utility of countertransference in the analytic process.",
+   "base_con": 0.9995114803314209,
+   "large": [
+    0.0005484661087393761,
+    0.003920295741409063,
+    0.9955312609672546
+   ]
+  },
+  {
+   "claim": "Joaqu\u00edn Guzm\u00e1n Loera is also known as \"El Chapo.\"",
+   "passage": "Gonzalo Inzunza Inzunza: Gonzalo Inzunza Inzunza (17 August 1971 \u2013 18 December 2013), commonly referred to by his alias El Macho Prieto, was a Mexican drug lord and high-ranking leader of the Sinaloa Cartel, a Mexican transnational criminal organization.  He worked as the cartel's assassins chief un",
+   "base_con": 0.9931640028953552,
+   "large": [
+    0.1278868168592453,
+    0.3633385896682739,
+    0.5087745785713196
+   ]
+  },
+  {
+   "claim": "Joseph McGrath was an Irish film director and producer.",
+   "passage": "Thomas H. Ince: Thomas Harper Ince (November 16, 1880 \u2013 November 19, 1924) was an American silent film producer, director, screenwriter, and actor.",
+   "base_con": 0.9999629259109497,
+   "large": [
+    0.0027873567305505276,
+    0.1793171912431717,
+    0.8178954124450684
+   ]
+  },
+  {
+   "claim": "Sam Hornish Jr. is known for performing a backflip off his car after winning a race in the NASCAR Nationwide Series.",
+   "passage": "Carl Edwards: Carl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He wo",
+   "base_con": 0.9884706735610962,
+   "large": [
+    0.0007093791500665247,
+    0.006245916709303856,
+    0.9930446743965149
+   ]
+  },
+  {
+   "claim": "Kevin Harvick is famous for performing backflips after race wins.",
+   "passage": "Carl Edwards: Carl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He wo",
+   "base_con": 0.9859732389450073,
+   "large": [
+    0.0005432952311821282,
+    0.10506150871515274,
+    0.894395112991333
+   ]
+  },
+  {
+   "claim": "The religious building near the Column of Saint Zanobi is referred to as a cathedral.",
+   "passage": "Florence Baptistery: The Florence Baptistery (Italian: \"Battistero di San Giovanni\" ), also known as the Baptistery of Saint John, is a religious building in Florence, Italy, and has the status of a minor basilica.  The octagonal baptistery stands in both the Piazza del Duomo and the Piazza San Giov",
+   "base_con": 0.9993647933006287,
+   "large": [
+    0.028220387175679207,
+    0.729948878288269,
+    0.2418307512998581
+   ]
+  },
+  {
+   "claim": "The question refers to a man well-known for hosting \"The Tonight Show\" from 1962 until 1999.",
+   "passage": "WWE One Night Stand: WWE One Night Stand was a professional wrestling pay-per-view (PPV) event, produced every June by WWE, a professional wrestling promotion based in Connecticut.  The event was created in 2005, with its inaugural event taking place in June of that year.  The event's name refers to",
+   "base_con": 0.9990137815475464,
+   "large": [
+    0.5756224393844604,
+    0.19791248440742493,
+    0.22646504640579224
+   ]
+  },
+  {
+   "claim": "The Saab JAS 39 Gripen typically cruises at speeds around Mach 0.8 to 0.9.",
+   "passage": "Saab JAS 39 Gripen: The Saab JAS 39 Gripen (English: \"griffin\" ) is a light single-engine multirole fighter aircraft manufactured by the Swedish aerospace company Saab.  It was designed to replace the Saab 35 Draken and 37 Viggen in the Swedish Air Force (\"Flygvapnet\").  The Gripen has a delta wing ",
+   "base_con": 0.9923015832901001,
+   "large": [
+    0.0010256102541461587,
+    0.9983933568000793,
+    0.0005809611175209284
+   ]
+  },
+  {
+   "claim": "The question refers to the movement that published literature from Brancart.",
+   "passage": "Queen Tripurasundari of Nepal: Queen Tripurasundari (1794 - April 6, 1832) (also known as Lalit Tripura Sundari Devi, or Lalit Tripura Sundari Thapa) (Nepali: \u0930\u093e\u0928\u0940 \u0932\u0932\u093f\u0924 \u0924\u094d\u0930\u093f\u092a\u0941\u0930\u093e\u0938\u0941\u0928\u094d\u0926\u0930\u0940 ) was the acting regent of Nepal after the assassination of Rana Bahadur Shah, from 1806 to 1832.  She was also the",
+   "base_con": 0.9638948440551758,
+   "large": [
+    0.0006049845833331347,
+    0.0034442476462572813,
+    0.9959506988525391
+   ]
+  },
+  {
+   "claim": "The song \"Fifteen\" is from Taylor Swift's album \"Fearless\".",
+   "passage": "Peter Pan (Kelsea Ballerini song): \"Peter Pan\" is a song co-written and recorded by American country pop singer Kelsea Ballerini for her debut studio album, \"The First Time\" (2015).  Ballerini co-wrote the song with Forest Glen Whitehead and Jesse Lee.  It was released to American country radio on M",
+   "base_con": 0.9998658895492554,
+   "large": [
+    0.05367424711585045,
+    0.7316030859947205,
+    0.21472258865833282
+   ]
+  },
+  {
+   "claim": "There is no confirmed evidence linking M. J. Arlidge to \"The Devil's Feather\".",
+   "passage": "The Rottweiler: The Rottweiler (2003) is a psychological thriller novel by English crime writer Ruth Rendell.",
+   "base_con": 0.9957543611526489,
+   "large": [
+    0.0735931321978569,
+    0.9227659702301025,
+    0.0036408579908311367
+   ]
+  },
+  {
+   "claim": "The range of 250 to 330 meters per second represents typical flow velocities past the boundary during regular operation.",
+   "passage": "A-Darter: The V3E A-Darter (Agile Darter) is a modern short-range infrared homing (\"heat seeking\") air-to-air missile, featuring countermeasures resistance with a 180-degree look angle and 120-degrees per second track rate, developed by South Africa's Denel Dynamics (formerly Kentron) and Brazil's M",
+   "base_con": 0.9572782516479492,
+   "large": [
+    0.018050383776426315,
+    0.9788036942481995,
+    0.0031458891462534666
+   ]
+  },
+  {
+   "claim": "Shandi Finnessey is a well-known American pageant titleholder and television personality.",
+   "passage": "Phil Laak: Philip \"Phil\" Courtney Laak is an Irish professional poker player and a poker commentator, now residing in Los Angeles, California.  Laak holds a World Poker Tour (WPT) title, a World Series of Poker (WSOP) bracelet, and has appeared on numerous nationally aired television shows.",
+   "base_con": 0.9922553300857544,
+   "large": [
+    0.0008684970671311021,
+    0.01647559180855751,
+    0.9826558828353882
+   ]
+  },
+  {
+   "claim": "SlamNation is a documentary film that depicts the poetry slam scene, featuring poets competing in a national poetry slam.",
+   "passage": "Paperback Dreams: Paperback Dreams is a 2008 television documentary film about the fate of bookstores in the new economy, that was part of the KQED (San Francisco's PBS station) documentary film series, \"Truly CA\".  It is \"the story of two landmark independent bookstores and their struggle to surviv",
+   "base_con": 0.9994539618492126,
+   "large": [
+    0.002043083542957902,
+    0.01914905197918415,
+    0.978807806968689
+   ]
+  },
+  {
+   "claim": "Robert Culp appeared on \"60 Minutes\".",
+   "passage": "Andy Rooney: Andrew Aitken \"Andy\" Rooney (January 14, 1919 \u2013 November 4, 2011) was an American radio and television writer who was best known for his weekly broadcast \"A Few Minutes with Andy Rooney\", a part of the CBS News program \"60 Minutes\" from 1978 to 2011.  His final regular appearance on \"60",
+   "base_con": 0.9918134212493896,
+   "large": [
+    0.001072969869710505,
+    0.9986135959625244,
+    0.000313474127324298
+   ]
+  },
+  {
+   "claim": "Robert Markowitz is known for his work as a producer and director on \"60 Minutes\".",
+   "passage": "Don Hewitt: Donald Shepard \"Don\" Hewitt (December 14, 1922 \u2013 August 19, 2009) was an American television news producer and executive, best known for creating \"60 Minutes\", the CBS television news magazine, in 1968, which at the time of his death, was the longest-running prime-time broadcast on Ameri",
+   "base_con": 0.9979977011680603,
+   "large": [
+    0.0014676917344331741,
+    0.9135012626647949,
+    0.08503109961748123
+   ]
+  },
+  {
+   "claim": "The Basham brothers participated in the ECW program in 2007.",
+   "passage": "Doug Basham: Lyle Douglas \"Doug\" Basham Jr. (born May 12, 1971) is an American professional wrestler, He is best known for his appearances with World Wrestling Entertainment between 2002 and 2007, and Total Nonstop Action Wrestling under the ring name Basham in 2007.",
+   "base_con": 0.998176097869873,
+   "large": [
+    0.001668547629378736,
+    0.9870948195457458,
+    0.011236642487347126
+   ]
+  },
+  {
+   "claim": "Alexi Laiho is older than Philip Labonte.",
+   "passage": "Philip Labonte: Philip Steven Labonte (Born April 15, 1975) is an American musician from Massachusetts, best known as the lead singer of the American heavy metal band All That Remains.  Labonte is the former lead vocalist for Shadows Fall, was the touring vocalist for Killswitch Engage in early 2010",
+   "base_con": 0.9525248408317566,
+   "large": [
+    0.0009746691794134676,
+    0.9982298016548157,
+    0.0007955017499625683
+   ]
+  },
+  {
+   "claim": "Kyle Busch was the driver known for doing backflips off his car in the 2009 NASCAR Nationwide Series.",
+   "passage": "Carl Edwards: Carl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He wo",
+   "base_con": 0.985511064529419,
+   "large": [
+    0.0004400146135594696,
+    0.003644832642748952,
+    0.9959152340888977
+   ]
+  },
+  {
+   "claim": "Thomas H. Ince was born in Kentucky, United States.",
+   "passage": "Joseph McGrath (film director): Joseph McGrath (born 1930, Glasgow) is a Scottish film and television director and screenwriter.  He studied at Glasgow School of Art in the late 1940s/early 1950s where his energy and talent was much admired by his contemporaries.",
+   "base_con": 0.9985030889511108,
+   "large": [
+    0.0014144605956971645,
+    0.9956432580947876,
+    0.0029422370716929436
+   ]
+  }
+ ]
+}

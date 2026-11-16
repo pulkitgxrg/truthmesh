@@ -1,0 +1,4 @@
+dataset,u,qid,claim,label_verdict,run_dir,category,notes
+hotpotqa,1,5abbda84554299642a094b5b,The ratio of flow velocity past the boundary to the local speed of sound for the Saab JAS 39 Gripen is approximately 0.74 to 0.97.,contradicted,runs/20261004-161732_pilot_v2_cvsm,,
+hotpotqa,1,5a73984355429908901be307,The song 'Fifteen' appears on Taylor Swift's album 'Fearless'.,not_supported,runs/20261004-161732_pilot_v2_cvsm,,
+hotpotqa,1,5abbda84554299642a094b5b,The ratio of flow velocity to the local speed of sound for the Saab JAS 39 Gripen ranges from approximately 0.74 to 0.97.,contradicted,runs/20261004-161732_pilot_v2_cvsm,,

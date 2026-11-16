@@ -1,0 +1,19 @@
+\begin{table*}[!t]
+\centering
+\caption{Cost per query on HotpotQA}
+\label{tab:cost}
+\footnotesize
+\begin{tabular}{lccccccc}
+\hline
+System & $k$ & Input tokens & Output tokens & LLM calls & NLI calls & Median latency (s) & p95 latency (s) \\
+\hline
+B5 Multi-agent debate & 2 & -- & -- & -- & -- & -- & -- \\
+B5 Multi-agent debate & 3 & 20931 & 1699 & 21.2 & 0 & 18.4 & 38.0 \\
+B5 Multi-agent debate & 5 & -- & -- & -- & -- & -- & -- \\
+CV-SM & 2 & -- & -- & -- & -- & -- & -- \\
+CV-SM & 3 & 11454 & 2830 & 30.7 & 231 & 124.3 & 294.5 \\
+CV-SM & 5 & -- & -- & -- & -- & -- & -- \\
+\hline
+\end{tabular}
+\par\smallskip\parbox{\textwidth}{\footnotesize Means over queries and runs; latency is wall-clock per query.}
+\end{table*}

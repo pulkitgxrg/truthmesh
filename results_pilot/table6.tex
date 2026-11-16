@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering
+\caption{Main results on the test splits}
+\label{tab:main}
+\footnotesize
+\begin{tabular}{lcccccccc}
+\hline
+System & HotpotQA EM / F1 & FEVER label acc. & TruthfulQA \% T\&I & HaluEval acc. & HR (\%) & Claims/answer & Coverage (\%) & Tokens/query \\
+\hline
+B1 Single agent & 0.38 [0.24, 0.52] / 0.47 [0.34, 0.60] & -- & -- & -- & 36.1 [26.4, 46.3] & 2.88 [2.50, 3.26] & 100.0 [100.0, 100.0] & 202 [194, 210] \\
+B2 Single agent + retrieval & -- / -- & -- & -- & -- & -- & -- & -- & -- \\
+B3 Self-consistency & -- / -- & -- & -- & -- & -- & -- & -- & -- \\
+B4 Chain-of-Verification & -- / -- & -- & -- & -- & -- & -- & -- & -- \\
+B5 Multi-agent debate & 0.52 [0.38, 0.66] / 0.63 [0.51, 0.75] & -- & -- & -- & 11.6 [5.4, 18.9] & 2.42 [2.08, 2.78] & 100.0 [100.0, 100.0] & 22630 [20689, 24597] \\
+B6 Unguarded shared memory & -- / -- & -- & -- & -- & -- & -- & -- & -- \\
+CV-SM & 0.12 [0.04, 0.22] / 0.14 [0.06, 0.24] & -- & -- & -- & 18.8 [0.0, 40.0] & 2.00 [1.20, 2.86] & 16.0 [8.0, 26.0] & 14284 [13175, 15400] \\
+\hline
+\end{tabular}
+\par\smallskip\parbox{\textwidth}{\footnotesize Means over U runs with 95\% bootstrap intervals (10000 resamples, query-level). HR, claims per answer, coverage and tokens pool HotpotQA, FEVER and TruthfulQA. FEVER score is not reported: it requires predicted FEVER evidence sentences, which the systems do not output. HaluEval: detector accuracy (CV-SM) vs single-LLM judge (B1); other systems not applicable.}
+\end{table*}
